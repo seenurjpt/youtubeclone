@@ -28,12 +28,12 @@ const SideBar = ( {selectedCategory,setSelectedCategory} ) => (
                 <span style={{opacity:  'Home' === selectedCategory ? '1' : '0.8'}}>Home</span>
             </button>
 
-            <button className='category-btn'  onClick={() => setSelectedCategory('PJ Explained')} style={{background: 'PJ Explained' === selectedCategory && '#FC1503', color: 'white'}} key={'PJ Explained'}>
+            {/* <button className='category-btn'  onClick={() => setSelectedCategory('PJ Explained')} style={{background: 'PJ Explained' === selectedCategory && '#FC1503', color: 'white'}} key={'PJ Explained'}>
                 <span  style={{color: 'PJ Explained' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><BlurOnIcon /></span>
                 <span style={{opacity:  'PJ Explained' === selectedCategory ? '1' : '0.8'}}>PJ Explained</span>
-            </button>
+            </button> 
 
-            {/* <button className='category-btn'  onClick={() => setSelectedCategory('Coding')} style={{background: 'Coding' === selectedCategory && '#FC1503', color: 'white'}} key={'Coding'}>
+            <button className='category-btn'  onClick={() => setSelectedCategory('Coding')} style={{background: 'Coding' === selectedCategory && '#FC1503', color: 'white'}} key={'Coding'}>
                 <span  style={{color: 'Coding' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><CodeIcon /></span>
                 <span style={{opacity:  'Coding' === selectedCategory ? '1' : '0.8'}}>Coding</span>
             </button>
