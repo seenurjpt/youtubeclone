@@ -28,26 +28,6 @@ const SideBar = ( {selectedCategory,setSelectedCategory} ) => (
                 <span style={{opacity:  'Home' === selectedCategory ? '1' : '0.8'}}>Home</span>
             </button>
 
-            {/* <button className='category-btn'  onClick={() => setSelectedCategory('PJ Explained')} style={{background: 'PJ Explained' === selectedCategory && '#FC1503', color: 'white'}} key={'PJ Explained'}>
-                <span  style={{color: 'PJ Explained' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><BlurOnIcon /></span>
-                <span style={{opacity:  'PJ Explained' === selectedCategory ? '1' : '0.8'}}>PJ Explained</span>
-            </button> 
-
-            <button className='category-btn'  onClick={() => setSelectedCategory('Coding')} style={{background: 'Coding' === selectedCategory && '#FC1503', color: 'white'}} key={'Coding'}>
-                <span  style={{color: 'Coding' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><CodeIcon /></span>
-                <span style={{opacity:  'Coding' === selectedCategory ? '1' : '0.8'}}>Coding</span>
-            </button>
-
-            <button className='category-btn' onClick={() => setSelectedCategory('React JS')} style={{background: 'React JS' === selectedCategory && '#FC1503', color: 'white'}} key={'React JS'}>
-                <span  style={{color: 'React JS' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><JavascriptIcon /></span>
-                <span style={{opacity:  'React JS' === selectedCategory ? '1' : '0.8'}}>React JS</span>
-            </button>
-
-            <button className='category-btn' onClick={() => setSelectedCategory('Next JS')} style={{background: 'Next JS' === selectedCategory && '#FC1503', color: 'white'}} key={'Next JS'}>
-                <span  style={{color: 'Next JS' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><DataObjectIcon /></span>
-                <span style={{opacity:  'Next JS' === selectedCategory ? '1' : '0.8'}}>Next JS</span> */}
-            {/* </button> */}
-
             <button className='category-btn' onClick={() => setSelectedCategory('Music')} style={{background: 'Music' === selectedCategory && '#FC1503', color: 'white'}} key={'Music'}>
                 <span  style={{color: 'Music' === selectedCategory ? 'white' : 'red', marginRight: '15px'}}><MusicNoteIcon /></span>
                 <span style={{opacity:  'Music' === selectedCategory ? '1' : '0.8'}}>Music</span>
