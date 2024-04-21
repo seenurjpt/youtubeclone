@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 import ChannelCard from './ChannelCard';
 import Videos from './Videos';
+import Navbar from './Navbar';
 
 
 const ChannelDetail = () => {
@@ -21,6 +22,7 @@ const ChannelDetail = () => {
 
   return (
     <Box minHeight='95vh'>
+      <Navbar/>
         <Box>
             <div
               style={{

@@ -6,6 +6,7 @@ import ReactPlayer from "react-player";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
+import Navbar from "./Navbar";
 
 const VideoDetail = () => {
   const [videoDetail, setVideoDetail] = useState(null);
@@ -29,6 +30,7 @@ const VideoDetail = () => {
   } = videoDetail;
   return (
     <Box minHeight="95vh">
+      <Navbar/>
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
           <Box sx={{ width: "100%", position: "sticky", top: "86px " }}>
